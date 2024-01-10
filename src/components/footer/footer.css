@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--blueMain);
+    height: 8.5rem;
+}
+    
+
+footer p {
+    color: #ccc;
+}
+
+.FooterIcons {
+    cursor: pointer;
+    margin-left: 2rem;
+}

@@ -1,0 +1,68 @@
+.nav {
+    background-color: transparent;
+    color: #17255A ;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 10rem;
+    margin-top: 3rem;
+}
+
+.site-title {
+    font-size: 2rem;
+}
+
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+    font-weight: 600;
+}
+
+.nav li.active {
+    color: red;
+}
+
+.nav li:hover {
+    color: green;
+}
+      
+.menu {
+    margin-right: 5rem;
+}
+
+.contact-button {
+    background-color: #FCFCFC;
+    border-radius: 6px;
+    color: #BA5624;
+    margin-left: auto;
+    border: 2px solid #BA5624;
+    padding: 10px 18px;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+
+.contact-button:hover {
+    background: #BA5624;
+    border-radius: 6px;
+    color: #FCFCFC;
+    margin-left: auto;
+    border: 2px solid #BA5624;
+    padding: 10px 18px;
+    font-weight: 600;
+    font-size: 1.25rem;
+}

@@ -1,0 +1,19 @@
+.container {
+  margin: 0;
+  text-align: center;
+}
+
+.hero-banner {
+  background-color: #17255a;
+  color: #eff1f3;
+  margin: 0;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+h1,
+h2,
+h3 {
+  color: #17255a;
+}

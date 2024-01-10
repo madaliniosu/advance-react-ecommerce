@@ -1,0 +1,46 @@
+
+
+.search-section {
+    background-color:#F6F6F6;
+}
+
+.search-container{
+    display: flex;
+    justify-content: flex-start;
+    margin: 3rem 10rem 0 10rem
+}
+
+.search-title{
+    text-decoration: underline;
+    text-decoration-color: var(--yellowAccent);
+    text-underline-offset: 0.5rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    letter-spacing: 3px ;
+}
+
+.CursuriTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+  }
+
+.CursuriSection{
+    margin: 0 10rem;
+    margin-bottom: 2rem;
+}
+
+.Cursuri{
+    display: flex;
+    gap: 2rem;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.Cursuri > a{
+    text-decoration: none;
+}
+
+

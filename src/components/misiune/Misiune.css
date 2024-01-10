@@ -1,0 +1,18 @@
+.MisiuneSectionText {
+    text-align: left;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    max-width: 40%;
+
+
+}
+
+.MisiuneSection {
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    background-color: #f6f6f6;
+    background-image: url("../../images/misiune.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}

@@ -1,0 +1,56 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.DespreHeader {
+    background-color: var(--blueMain);
+    background-image: url("../../images/despre-noi-header.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+} 
+
+#Moto {
+    font-size: 3.75rem;
+    padding-bottom: 5.25rem;
+    color: var(--whiteMain);
+    text-align: left;
+    margin-left: 10rem;
+}
+
+
+#MotoTitle {
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-underline-offset: 8px;
+    text-decoration-color: var(--yellowAccent);
+    padding-top: 5.25rem;
+    color: var(--whiteMain);
+    text-align: left;
+    margin-left: 10rem;
+}
+
+
+.DespreDescriere p{
+    max-width: 65%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+
+}
+
+.DespreDescriere {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    color: var(--blueMain);
+    line-height: 20px;
+    font-weight: 500;
+}
+
+#MisiuneTitle {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 4px;
+    text-decoration-color: var(--yellowAccent);
+}
+

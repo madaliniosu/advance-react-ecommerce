@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --blueMain: #17255a;
+  --whiteMain: #fcfcfc;
+  --yellowAccent: #ffbc42;
+  --greyBase: #eff1f3;
+  --orangeAccent: #ba5624;
+  --greenAdditionalAccent: #1b998b;
+  --blueSoftAccent: #dbe4f1;
+}
