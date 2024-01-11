@@ -13,7 +13,7 @@ const Details = () => {
   const locationsSpace = locationsStr.replace(/,/g, ", ");
 
   const competenteList = competente.map((competenta) => (
-    <li key={Math.random(100)}>{competenta}</li>
+    <li key={id}>{competenta}</li>
   ));
 
   return (
