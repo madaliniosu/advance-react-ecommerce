@@ -78,7 +78,7 @@ const Details = () => {
         <div className="CursDetailsImg CursDetails">
           <img
             className="CursDetailsImgFile"
-            src={`../src/assets/cursCover/${image}`}
+            src={`../../../src/assets/cursCover/${image}`}
             alt={title}
           />
         </div>
@@ -135,7 +135,7 @@ const Details = () => {
           <div className="TestimonialCard">
             <div className="TestimonialCardTitle">
               <img
-                src="../src/assets/testimoniale/testimonial1.png"
+                src="../../src/assets/testimoniale/testimonial1.png"
                 alt="testimonial"
               />
               <div>
@@ -151,7 +151,7 @@ const Details = () => {
           <div className="TestimonialCard">
             <div className="TestimonialCardTitle">
               <img
-                src="../src/assets/testimoniale/testimonial2.png"
+                src="../../src/assets/testimoniale/testimonial2.png"
                 alt="testimonial"
               />
               <div>
@@ -167,7 +167,7 @@ const Details = () => {
           <div className="TestimonialCard">
             <div className="TestimonialCardTitle">
               <img
-                src="../src/assets/testimoniale/testimonial3.png"
+                src="../../src/assets/testimoniale/testimonial3.png"
                 alt="testimonial"
               />
               <div>
