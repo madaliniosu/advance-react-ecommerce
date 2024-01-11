@@ -4,7 +4,7 @@ import Despre from "./pages/despreNoi/Despre";
 import Home from "./pages/Home";
 import Servicii from "./pages/Servicii";
 import { Route, Routes } from "react-router-dom";
-import Details from "./pages/cursDetails/Details";
+import Details from "./pages/details/Details";
 import Rootlayout from "./layouts/Rootlayout";
 import NotFound from "./pages/NotFound";
 

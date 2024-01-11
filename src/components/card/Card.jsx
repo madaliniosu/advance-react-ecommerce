@@ -7,7 +7,7 @@ const Card = (props) => {
       <Link to={`/cursuri/${props.id}`}>
         <img
           className="CardImage"
-          src={`images/cursuri-images/${props.img}`}
+          src={`../src/assets/cursCover/${props.img}`}
           alt={props.title}
         />
 

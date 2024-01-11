@@ -10,10 +10,6 @@ export default function Navbar() {
   const handleClickScroll = () => {
     id.current = !id.current;
     navigate(`/?id=${id.current}`);
-    // const element = document.getElementById("contact")
-    // if(element) {
-    //     element.scrollIntoView({behavior: "smooth"});
-    // }
   };
 
   return (
@@ -41,25 +37,10 @@ export default function Navbar() {
             DESPRE NOI
           </NavLink>
         </ul>
-        {/* <NavLink to="/?id=contact" className="contact-button"> */}
         <button className="contact-button" onClick={handleClickScroll}>
           CONTACTEAZĂ-NE
         </button>
-        {/* </NavLink> */}
       </nav>
     </>
   );
 }
-
-// function CustomLink ({ to, children, ...props}) {
-
-//         const resolvedPath = useResolvedPath(to)
-//         const isActive = useMatch({path: resolvedPath.pathname,
-//                                     end: true })
-
-//     return (
-//         <li className={isActive ? "active" : ""}>
-//             <Link to={to} {...props}>{children}</Link>
-//         </li>
-//     )
-//  }
